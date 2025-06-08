@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { MusicCard } from './MusicCard';
 import { Button } from '@/components/ui/button';
@@ -83,7 +82,7 @@ const categories = [
 
 export const MusicSections: React.FC = () => {
   return (
-    <div className="py-16 space-y-24">
+    <div className="py-16 space-y-24 pb-32">
       {/* Mais Baixadas Section */}
       <section id="popular" className="px-6 lg:px-12">
         <div className="max-w-7xl mx-auto">
