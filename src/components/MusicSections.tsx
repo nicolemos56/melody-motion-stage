@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { MusicCard } from './MusicCard';
 import { Button } from '@/components/ui/button';
@@ -168,7 +169,7 @@ export const MusicSections: React.FC = () => {
             ))}
           </div>
           
-          <div className="text-center mt-8">
+          <div className="text-center mt-8 mb-16">
             <Button size="lg" className="bg-primary hover:bg-primary/90">
               Explorar Todas as Categorias
             </Button>
